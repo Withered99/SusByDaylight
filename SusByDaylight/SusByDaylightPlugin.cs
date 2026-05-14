@@ -11,10 +11,9 @@ using Reactor.Networking.Attributes;
 namespace SusByDaylight
 {
     // 1. Use standard BepInPlugin instead of BepInAutoPlugin
-    [BepInPlugin(Id, Name, Version)]
     [BepInProcess("Among Us.exe")]
     [BepInDependency(ReactorPlugin.Id)]
-    [BepInDependency(MiraApiPlugin.Id)]
+    [BepInDependency(MiraApiPlugin.Id)] // The Mira API dependency attribute
     [ReactorModFlags(ModFlags.RequireOnAllClients)]
 
     // 2. Remove the "partial" keyword from the class definition

@@ -1,16 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-	<ItemGroup>
-        <PackageReference Include="Reactor" Version="2.5.0-ci.371" />
-        <PackageReference Include="AllOfUs.MiraAPI" Version="0.4.0" />
-        <PackageReference Include="Unity" Version="5.11.10" />
-    </ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Buttons\" />
@@ -21,20 +15,41 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Reference Include="Assembly-CSharp">
-	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\defaultprojects\sheep\sheep_Data\Managed\Assembly-CSharp.dll</HintPath>
+	  <Reference Include="0Harmony">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\core\0Harmony.dll</HintPath>
 	  </Reference>
-	  <Reference Include="UnityEngine">
-	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.dll</HintPath>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Core">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\core\BepInEx.Core.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Unity.IL2CPP">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppInterop.HarmonySupport">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\core\Il2CppInterop.HarmonySupport.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2CppInterop.Runtime">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Il2Cppmscorlib">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MiraAPI">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\plugins\MiraAPI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Reactor">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\plugins\Reactor.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Unity.TextMeshPro">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
 	  </Reference>
 	  <Reference Include="UnityEngine.CoreModule">
 	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
 	  </Reference>
-	  <Reference Include="UnityEngine.UIElementsModule">
-	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.UIElementsModule.dll</HintPath>
-	  </Reference>
-	  <Reference Include="UnityEngine.UIModule">
-	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.UIModule.dll</HintPath>
+	  <Reference Include="UnityEngine.UI">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\interop\UnityEngine.UI.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 
