@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+        <PackageReference Include="Reactor" Version="2.5.0-ci.371" />
+        <PackageReference Include="AllOfUs.MiraAPI" Version="0.4.0" />
+        <PackageReference Include="Unity" Version="5.11.10" />
+    </ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Buttons\" />
+	  <Folder Include="Options\Roles\" />
+	  <Folder Include="Patches\General\" />
+	  <Folder Include="Patches\Roles\" />
+	  <Folder Include="Resources\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\wallpaper_engine\projects\defaultprojects\sheep\sheep_Data\Managed\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UIElementsModule">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.UIElementsModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UIModule">
+	    <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Among Us - Modded\BepInEx\unity-libs\UnityEngine.UIModule.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
