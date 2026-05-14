@@ -11,10 +11,10 @@ using System.Threading.Tasks;
 namespace SusByDaylight.Roles
 {
     // Removed the outer 'internal class' wrapper that was causing the naming conflict
-    public class EvanMacMillanRole : ImpostorRole, ICustomRole
+    public class DwightFairfieldRole : ImpostorRole, ICustomRole
     {
-        public string RoleName => "Evan MacMillan";
-        public string RoleLongDescription => "Control the map by placing hidden bear traps in high-traffic areas.";
+        public string RoleName => "Dwight Fairfield";
+        public string RoleLongDescription => "A nervous leader who excels at group coordination, gaining significant task-speed boosts whenever he works in close proximity to other crewmates.";
         public string RoleDescription => RoleLongDescription;
 
         public Color RoleColor => Palette.ImpostorRed;
